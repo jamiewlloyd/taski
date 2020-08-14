@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="description goes here">
+    <meta name="author" content="Jamie">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <title>TASKi</title>
+</head>
+
+<body>
+    <header id="header">
+        <img src="images/logoPurple.png" alt="Taski Logo" id="logoPurple" class="logo show">
+        <img src="images/logoBlue.png" alt="Taski Logo" id="logoBlue" class="logo hide">
+        <img src="images/logoYellow.png" alt="Taski Logo" id="logoYellow" class="logo hide">
+        <img src="images/logoOrange.png" alt="Taski Logo" id="logoOrange" class="logo hide">
+    </header>
+    <section class="taski">
+        <form id="task-form">
+            <label for="task">New Task</label>
+            <input type="text" name="task" id="task" class="taski-input" placeholder="Enter new task">
+            <input type="submit" value="Add Task" id=submitBtn class="btn submit">
+        </form>
+    </section>
+    <section class="taski main">
+        <h1>Tasks</h1>
+        <input type="text" name="filter" id="filter" class="taski-input" placeholder="Filter Tasks">
+        <ul id="tasklist">
+
+        </ul>
+        <button class="btn clear">Clear All</button>
+    </section>
+
+    <footer>
+        <h2>Click the logo for alternate themes<br>
+            Created by Jamie Lloyd 2020</h2>
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
